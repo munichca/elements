@@ -1,0 +1,42 @@
+.login {
+    width: 325px;
+    margin: 0 auto;
+}
+
+.login .box-form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.login .box-form .email, .login .box-form input {
+    border-radius: 8px;
+    font-size: 15px;
+    border: 0;
+    padding: 10px;
+}
+
+.login .box-button button a {
+    text-decoration: none;
+    color: white;
+    width: 325px;
+    font-size: 15px;
+}
+
+.login .box-button button {
+    width: 325px;
+    background-color: #1259c3;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.login small{
+    color: red;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.login .box-button:hover button {
+    background-color: #0022AA;
+    transition: 300ms;
+}

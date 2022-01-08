@@ -1,0 +1,103 @@
+/* general */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.home {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #ebebeb;
+    font-size: 12px;
+}
+
+
+/* header */
+
+.home header {
+    background-color: #EAC926;
+    padding-left: 10px;
+}
+
+.home header img.logo {
+    width: 50%;
+    padding: 20px;
+}
+
+
+.home header span.buscador input {
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.home header span.mano {
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home header .icon{
+    margin-left: 50px;
+}
+
+.home header .lista1 ul {
+    display: none;
+    list-style: none;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.home header .lista2 ul {
+    display: none;
+    list-style: none;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.home header .lista2 ul a.icono {
+    color: black;
+}
+
+.home header .cajaburger {
+    display: content;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.home header .cajaburger .burger {
+    background-color: #1259c3;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+footer {
+    margin: 0;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer section h4 {
+    margin: 10px;
+}
+
+footer section a.seg {
+    margin-bottom: 5px;
+    background-size: 2em;
+    color: #1259c3;
+    font-size: 2em
+}
+
+footer div {
+    text-align: left;
+    margin-top: 45px;
+}
+

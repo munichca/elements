@@ -1,0 +1,57 @@
+.register {
+    width: 325px;
+    margin: 0 auto;
+}
+
+.register .box-form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.register .perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.register p {
+    font-size: 15px;
+    text-align: left;
+    margin: 20px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.register .box-form input {
+    border-radius: 8px;
+    font-size: 15px;
+    border: 0;
+    padding: 10px;
+}
+
+.register .box-button button {
+    width: 310px;
+    background-color: #1259c3;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.register .box-button button a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.register .borrar input {
+    border: 0;
+    padding: 10px;
+    color: blue;
+}
+
+.register .options {
+    text-align: left;
+    margin: 20px;
+}
